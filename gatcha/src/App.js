@@ -6,6 +6,7 @@ import BoxInfo from './pages/BoxInfo';
 import BoxOpen from './pages/BoxOpen';
 import InventoryPage from './pages/InventoryPage';
 import { Route, Router } from 'wouter';
+import NavBar from './components/Navbar';
 
 
 
@@ -15,6 +16,16 @@ function App() {
 
   return (
     <Router>
+    
+      <NavBar userInput={userInput} />
+    
+  
+  
+    <Route path ="/card/:id">
+    <BoxInfo />
+    </Route>
+    <Route path="/boxopen"component={() => <BoxOpen />}/>
+    
     <Route path="/main"component={() => <MainMenu userInput={userInput}/>}/>
     <Route path="/"component={() => <LoginPage setUserInput={setUserInput}/>} />
     

@@ -1,16 +1,21 @@
 import React from 'react';
-import {Link} from 'wouter';
+import {Link,useParams} from 'wouter';
 import './Navbar.css';
 
-export const NavBar=()=>{
+export const NavBar=({userInput})=>{
+
+   
 
     return (
         <nav className="navbar">
             <div className="navbar-logo">
-                <img src="/images/popmartlogo.png" alt="Pop Mart Logo" />
+                {<img src="/images/popmartlogo.png" alt="Pop Mart Logo" />}
             </div>
+            
             <ul className="navbar-links">
-            <li><Link href="/">CATEGORIES</Link></li>
+            <li>Welcome {userInput}</li>
+            <li><Link href="/main">BOXES</Link></li>
+            
             </ul>
 
         </nav>

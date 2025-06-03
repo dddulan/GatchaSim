@@ -8,7 +8,7 @@ export default function MainMenu({userInput}){
     return (
         
   <div className="main-menu">
-      <h2 style={{textalign:'center'}}>Blind Boxes</h2>
+      <h2>Blind Boxes</h2>
       
       <div className="card-grid">
         {cards.map((card) => (

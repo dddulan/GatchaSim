@@ -3,7 +3,6 @@ import cards from '../components/PopInfo';
 import {useParams} from 'wouter';
 import Button from '../components/Button';
 
-const [inputValue,setInputValue]=useState('');
 
 
 

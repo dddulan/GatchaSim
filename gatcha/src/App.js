@@ -4,12 +4,13 @@ import LoginPage from './pages/LoginPage';
 import MainMenu from './pages/MainMenu';
 import BoxInfo from './pages/BoxInfo';
 import BoxOpen from './pages/BoxOpen';
-import InventoryPage from './pages/InventoryPage';
+import BoxReveal from './pages/BoxReveal';
+//import InventoryPage from './pages/InventoryPage';
 import { Route, Router } from 'wouter';
 import NavBar from './components/Navbar';
 
 
-
+//<Route path="/boxopen/:id"component={BoxOpen}/>
 function App() {
 
   const [userInput, setUserInput] = useState('');
@@ -24,8 +25,15 @@ function App() {
     <Route path ="/card/:id">
     <BoxInfo />
     </Route>
-    <Route path="/boxopen"component={() => <BoxOpen />}/>
     
+    <Route path ="/boxopen/:id">
+    <BoxOpen />
+    </Route>
+
+    <Route path ="/boxreveal/:brand/:series/:id">
+    <BoxReveal />
+    </Route>
+
     <Route path="/main"component={() => <MainMenu userInput={userInput}/>}/>
     <Route path="/"component={() => <LoginPage setUserInput={setUserInput}/>} />
     

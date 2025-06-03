@@ -2,7 +2,13 @@ import React from 'react'
 import { Link } from 'wouter';
 import './Card.css';
 export const Card = ({card}) =>{
+
+    //used to check page
+
+
+    //if no card return nothing
    if (!card) return null;
+    
 
     return (
     <div className="card-grid">

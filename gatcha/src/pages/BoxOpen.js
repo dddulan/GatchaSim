@@ -2,6 +2,8 @@ import React from 'react'
 import cards from '../components/PopInfo'
 import { Card } from '../components/Card'
 import {useParams,Link} from 'wouter';
+import styles from './BoxOpen.css'
+
 
 export default function BoxOpen(){
 
@@ -20,7 +22,6 @@ const { id } = useParams();
 
     return (
         <div>
-            <h2>{card.title}</h2>
             <div className="boxes-container">
                 <div className="single-box">
                     {[...Array(12)].map((_, i) => {

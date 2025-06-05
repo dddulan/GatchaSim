@@ -1,0 +1,40 @@
+.reveal-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #f2f2f2, #e0e0e0);
+    font-family: 'Helvetica Neue', sans-serif;
+  }
+  
+  .reveal-image {
+    max-width: 500px;
+    width: 90%;
+    border-radius: 16px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+  }
+  
+  .reveal-image:hover {
+    transform: scale(1.05);
+  }
+  
+  .reveal-button {
+    margin-top: 24px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .reveal-button:hover {
+    background-color: #333;
+  }
+  

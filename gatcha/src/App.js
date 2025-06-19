@@ -8,6 +8,7 @@ import BoxReveal from './pages/BoxReveal';
 //import InventoryPage from './pages/InventoryPage';
 import { Route, Router } from 'wouter';
 import NavBar from './components/Navbar';
+import { SideBar } from './components/SideBar';
 
 
 //<Route path="/boxopen/:id"component={BoxOpen}/>
@@ -19,7 +20,7 @@ function App() {
     <Router>
     
       <NavBar userInput={userInput} />
-    
+      <SideBar/>
   
   
     <Route path ="/card/:id">

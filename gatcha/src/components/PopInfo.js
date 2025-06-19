@@ -7,7 +7,7 @@ const cards=[
         singlebox:'/images/hirono/echo/hironobox.png',
         boximage:'/images/hirono/echo/hironoechoboxes.png',
         allimage:'/images/hirono/echo/hironoechoall.png',
-        title:'hirono',
+        title:'HIRONO',
         series:'echo',
         description:'Hirono Echo Series Figures',
         price:'$18.00',
@@ -21,7 +21,7 @@ const cards=[
         singlebox:'/images/hirono/mime/mimesinglebox.png',
         boximage:'/images/hirono/mime/hironomimeboxes.png',
         allimage:'/images/hirono/mime/hironomimeall.png',
-        description:'Hirono Mime Series Figures',
+        description:'Mime Series Figures',
         price:'$18.00',
 
     },
@@ -33,7 +33,7 @@ const cards=[
         singlebox:'/images/hirono/other/othersinglebox.png',
         boximage:'/images/hirono/other/hironootherboxes.png',
         allimage:'/images/hirono/other/hironootherall.png',
-        description:'Hirono Mime Series Figures',
+        description:'Other Series Figures',
         price:'$18.00',
 
     },
@@ -45,14 +45,14 @@ const cards=[
         singlebox:'/images/kubo/walk/walksinglebox.png',
         boximage:'/images/kubo/walk/kubowalkboxes.png',
         allimage:'/images/kubo/walk/kubowalkall.png',
-        description:'Kubo Walk Series Figures',
+        description:'Walk Series Figures',
         price:'$18.00',
 
     },
      {
         id:5 ,
         image: '/images/peachriot/load/PeachLoad.png',
-        title:'PeachRiot',
+        title:'PEACHRIOT',
         series:'load',
         singlebox:'/images/peachriot/load/loadboxsingle.png',
         boximage:'/images/peachriot/load/peachloadall.png',
